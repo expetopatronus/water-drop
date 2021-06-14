@@ -1,0 +1,91 @@
+* {
+	margin: 0;
+	position: absolute;
+}
+
+body {
+	height: 90vh;
+	width: 100vw;
+	background-color: #44B7F5
+}
+
+#canvas {
+	height: 70vmin;
+	width: 70vmin;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+
+#drop {
+	width: 30vmin;
+	height: 30vmin;
+	border-radius: 0 50% 50% 50%;
+	background: linear-gradient(to right bottom, #0790DA, #128ACB,#006BA5);
+	transform: rotate(45deg);
+	top: 10vmin;
+	left: 20vmin;
+}
+
+#light {
+	width: 25vmin;
+	height: 25vmin;
+	top: 1vmin;
+	left: 1vmin;
+	border-radius: 0 50% 50% 50%;
+	background: linear-gradient(to right bottom, #74CCF4, #74CCF4, rgba(199,52,96,0), rgba(199,52,96,0));
+}
+
+#water {
+	width: 50vmin;
+	height: 20vmin;
+	border-style: solid;
+	border-width: 0 5vmin 0 5vmin;
+	border-color: #2389da;
+	border-radius: 50%;
+	top: 35vmin;
+	left: 5vmin;
+}
+
+#water2 {
+	width: 30vmin;
+	height: 10vmin;
+	border-style: solid;
+	border-width: 2vmin 0 2vmin 0;
+	border-color: #2389da;
+	border-radius: 50%;
+	top: 37.5vmin;
+	left: 20vmin;
+}
+
+#tDrop, #tDrop2, #tDrop3, #tDrop4 {
+	border-radius: 50%;
+	width: 5vmin;
+	height: 5vmin;
+	background-color: #006BA5;
+	top: 35vmin;
+	left: 18vmin;
+}
+
+#tDropIn, #tDropIn2, #tDropIn3, #tDropIn4 {
+	border-radius: 50%;
+	width: 3vmin;
+	height: 3vmin;
+	background-color: #74CCF4;
+	left: 1vmin;
+}
+
+#tDrop2 {
+	top: 32vmin;
+	left: 47vmin;
+}
+
+#tDrop3 {
+	top: 40vmin;
+	left: 45vmin;
+}
+
+#tDrop4 {
+	top: 47vmin;
+	left: 23vmin;
+}
